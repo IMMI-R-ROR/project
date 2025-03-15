@@ -1,0 +1,11 @@
+
+i{
+    font-style: normal;
+    padding: 10px;
+    margin: 2px;
+    border: 2px solid black;
+}
+.outline{
+    border: 2px solid black;
+    height: 100vh;
+}
