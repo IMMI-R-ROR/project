@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    background: url("https://static.vecteezy.com/system/resources/thumbnails/029/470/675/small_2x/ai-generated-ai-generative-purple-pink-color-sunset-evening-nature-outdoor-lake-with-mountains-landscape-background-graphic-art-photo.jpg") no-repeat center ;
+    background-size: cover;
+  }
+  #result{
+    font-size: 100px;
+    font-weight: 800;
+    color: aqua;
+  }
+  button{
+    color: rgb(255, 143, 6);
+    font-weight: 500;
+    background-color: black;
+    box-shadow: 5px 5px 10px white;
+    padding: 1%;
+    border-radius: 100px;
+  }
+ button:hover{
+    background-color: #813d3d;
+ }
