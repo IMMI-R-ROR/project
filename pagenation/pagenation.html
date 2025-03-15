@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous"
+        />
+
+
+        <style>
+            i{
+                font-style: normal;
+                padding: 10px;
+                margin: 2px;
+                border: 2px solid black;
+            }
+        </style>
+
+    </head>
+
+    <body class="">
+        <div class="outline d-flex justify-content-center">
+            <button id="prev">Prev</button>
+            <i class="s1">1</i>
+            <i class="s2">2</i>
+            <i class="s3">3</i>
+            <i class="s4">4</i>
+            <button id="next">Next</button>
+        </div>
+
+
+        <script>
+            var s1=document.querySelector('.s1');
+            var s2=document.querySelector('.s2');
+            var s3=document.querySelector('.s3');
+            var s4=document.querySelector('.s4');
+            var prev=document.querySelector('#prev');
+            var next=document.querySelector('#next');
+
+            var arr=[s1,s2,s3,s4];
+            var data=0;
+            arr[0].style.backgroundColor='red';
+            function clk(){
+                data++;
+               arr[data].style.backgroundColor='red';
+            }
+            next.addEventListener('click',clk)
+        </script>
+
+
+
+
+
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"
+        ></script>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
